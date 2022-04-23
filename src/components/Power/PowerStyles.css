@@ -1,0 +1,26 @@
+.super {
+    width: 100%;
+    height: 100vh ;
+    background: url(../../images/porche.jpg) no-repeat center center/cover;
+}
+
+.super .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.super .top{
+    margin: 7rem;
+    color: #fff;
+}
+.super .bottom{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 4rem;
+}
