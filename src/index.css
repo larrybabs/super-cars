@@ -45,21 +45,21 @@ h3 {
   font-size: .8rem;
   font-weight: 600;
   text-transform: uppercase;
-  border-radius: 25px;
+  border-radius: 5px;
   border: none;
-  background: rgba(255, 255, 255, .1);
+  background: rgba(255, 50, 50, 0.5);
   width: 90%;
   color: #f6f6f6;
   cursor: pointer;
 }
 
 .btn-dark {
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .8);
 }
 
 .btn:hover {
   background: rgba(255, 255, 255, .4);
 }
 .btn-dark:hover {
-  background: rgba(0, 0, 0, .8);
+  background: rgba(0, 0, 0, .5);
 } 
