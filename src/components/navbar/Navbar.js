@@ -42,7 +42,7 @@ const Navbar = () => {
                 <li><a href="/">Account</a></li>
             </ul>
             <div className="hamburger" onClick={handleNav} >
-                {nav? (<FaTimes size={20} color={'#fff'}/>) : (<FaBars size={20}/>)}
+                {nav? (<FaTimes size={20} color={'#fff'}/>) : (<FaBars size={20} color={'#fff'}/>)}
                 
             </div>
         </div>

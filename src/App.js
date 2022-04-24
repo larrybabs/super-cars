@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import Power from "./components/Power/Power";
+import Speed from "./components/Speed/Speed";
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     < >
       <Navbar />
       <Power />
+      <Speed />
     </>
   );
 }
