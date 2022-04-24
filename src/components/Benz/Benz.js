@@ -1,10 +1,10 @@
-import './PowerStyles.css'
+import './BenzStyles.css'
 
-const Power = () => {
+const Handling = () => {
   return (
-    <div name="super" className="super">
+    <div name="handling" className="handling">
         <div className="container">
-             <h1 className="top">Porche</h1>
+             <h1 className="top">Mercedes Benz</h1>
         <div className="bottom">
             <button className="btn btn-dark">Drive</button>
             <button className="btn">Ride</button>
@@ -15,4 +15,4 @@ const Power = () => {
   );
 }
 
-export default Power;
+export default Handling;

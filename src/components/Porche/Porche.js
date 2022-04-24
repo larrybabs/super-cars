@@ -1,10 +1,10 @@
-import './SpeedStyles.css'
+import './PorcheStyles.css'
 
-const Speed = () => {
+const Power = () => {
   return (
-    <div name="speed" className="speed">
+    <div name="super" className="super">
         <div className="container">
-             <h1 className="top">Ferrari</h1>
+             <h1 className="top">Porche</h1>
         <div className="bottom">
             <button className="btn btn-dark">Drive</button>
             <button className="btn">Ride</button>
@@ -15,4 +15,4 @@ const Speed = () => {
   );
 }
 
-export default Speed;
+export default Power;

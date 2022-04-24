@@ -1,10 +1,10 @@
 import React from "react";
 import Contact from "./components/Contact/Contact";
 import Navbar from "./components/navbar/Navbar";
-import Options from "./components/Options/Options";
-import Power from "./components/Power/Power";
-import Speed from "./components/Speed/Speed";
-import Handling from "./Handling/Handling";
+import Options from "./components/BMW/BMW";
+import Power from "./components/Porche/Porche";
+import Speed from "./components/Ferrari/Ferrari";
+import Handling from "./components/Benz/Benz";
 
 
 function App() {

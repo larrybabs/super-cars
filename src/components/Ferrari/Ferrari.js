@@ -1,10 +1,10 @@
-import './HandlingStyles.css'
+import './FerrariStyles.css'
 
-const Handling = () => {
+const Speed = () => {
   return (
-    <div name="handling" className="handling">
+    <div name="speed" className="speed">
         <div className="container">
-             <h1 className="top">Mercedes Benz</h1>
+             <h1 className="top">Ferrari</h1>
         <div className="bottom">
             <button className="btn btn-dark">Drive</button>
             <button className="btn">Ride</button>
@@ -15,4 +15,4 @@ const Handling = () => {
   );
 }
 
-export default Handling;
+export default Speed;
