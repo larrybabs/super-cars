@@ -12,10 +12,7 @@ const Navbar = () => {
         setNav(!nav)
         setSlide(!slide)
     } 
-
-    const handleClose = () => { 
-        setNav(!nav)
-    } 
+    
  
   return (
     <>
@@ -25,15 +22,15 @@ const Navbar = () => {
                 <h3>Super cars </h3>
             </div>
             <ul className={nav? "nav-menu active" : "nav-menu"}>
-                <li><a href="/">                <Link onClick={handleClose} activeClass="active" to="super" spy={true} smooth={true} duration={500}>Super</Link>
+                <li><a href="/">                <Link activeClass="active" to="super" spy={true} smooth={true} duration={500}>Super</Link>
 </a></li>
-                <li><a href="/">                <Link onClick={handleClose} activeClass="active" to="speed" spy={true} smooth={true} duration={500}>Speed</Link>
+                <li><a href="/">                <Link activeClass="active" to="speed" spy={true} smooth={true} duration={500}>Speed</Link>
 </a></li>
-                <li><a href="/">                <Link onClick={handleClose} activeClass="active" to="handling" spy={true} smooth={true} duration={500}>Handling</Link>
+                <li><a href="/">                <Link activeClass="active" to="handling" spy={true} smooth={true} duration={500}>Handling</Link>
 </a></li>
-                <li><a href="/">                <Link onClick={handleClose} activeClass="active" to="options" spy={true} smooth={true} duration={500}>Options</Link>
+                <li><a href="/">                <Link activeClass="active" to="options" spy={true} smooth={true} duration={500}>Options</Link>
 </a></li>
-                <li><a href="/">                <Link onClick={handleClose} activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
+                <li><a href="/">                <Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link>
 </a></li>
 
 
