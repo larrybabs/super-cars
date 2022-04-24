@@ -24,3 +24,10 @@
     max-width: 600px;
     margin: 4rem;
 }
+
+@media screen and (max-width:540px){
+    .super .container .bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+}

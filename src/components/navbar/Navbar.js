@@ -5,12 +5,18 @@ import './NavStyle.css'
 
 const Navbar = () => {
     const[nav, setNav] = useState(false)
-    const handleNav = () => {setNav(!nav)} 
+    const[slide, setSlide] = useState(false)
+
+    const handleNav = () => {
+        setNav(!nav)
+        setSlide(!slide)
+    } 
+ 
   return (
     <>
     <div className="navbar">
         <div className="container">
-            <div className="logo">
+            <div className={slide? "logo slide-right" : "logo" }>
                 <h3>Super cars </h3>
             </div>
             <ul className={nav? "nav-menu active" : "nav-menu"}>
@@ -35,9 +41,9 @@ const Navbar = () => {
                 <li><a href="/">Shop</a></li>
                 <li><a href="/">Account</a></li>
             </ul>
-            <div className="hamburger" onClick={handleNav}>
-                {nav? (<FaTimes size={20} style={{Color: "#fff"}}/>) : (<FaBars size={20}/>)}
-                {/* <FaBars /> */}
+            <div className="hamburger" onClick={handleNav} >
+                {nav? (<FaTimes size={20} color={'#fff'}/>) : (<FaBars size={20}/>)}
+                
             </div>
         </div>
 

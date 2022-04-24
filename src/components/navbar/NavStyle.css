@@ -98,11 +98,19 @@
     .hide{
         display: none;
     }
+    .navbar .slide-right{
+        margin-left: 45%;
+        transition: 0.8s ease-in-out;
+        }
 }
+
 
 
 @media screen and (max-width: 465px) {
     .nav-menu{
         width: 75px;
+    }
+    .navbar .slide-right{
+        margin-left: 30%;
     }
 }
