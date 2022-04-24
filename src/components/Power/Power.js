@@ -2,7 +2,7 @@ import './PowerStyles.css'
 
 const Power = () => {
   return (
-    <div className="super">
+    <div name="super" className="super">
         <div className="container">
              <h1 className="top">Porche</h1>
         <div className="bottom">

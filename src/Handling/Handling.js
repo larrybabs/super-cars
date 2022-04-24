@@ -2,7 +2,7 @@ import './HandlingStyles.css'
 
 const Handling = () => {
   return (
-    <div className="handling">
+    <div name="handling" className="handling">
         <div className="container">
              <h1 className="top">Mercedes Benz</h1>
         <div className="bottom">

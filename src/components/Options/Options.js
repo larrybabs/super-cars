@@ -2,7 +2,7 @@ import './OptionStyles.css'
 
 const Options = () => {
   return (
-    <div className="options">
+    <div name="options" className="options">
         <div className="container">
              <h1 className="top">B M W</h1>
         <div className="bottom">

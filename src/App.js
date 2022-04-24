@@ -1,4 +1,5 @@
 import React from "react";
+// import Contact from "./components/Contact/Contact";
 import Navbar from "./components/navbar/Navbar";
 import Options from "./components/Options/Options";
 import Power from "./components/Power/Power";
@@ -14,6 +15,7 @@ function App() {
       <Speed />
       <Handling />
       <Options />
+      {/* <Contact /> */}
     </>
   );
 }

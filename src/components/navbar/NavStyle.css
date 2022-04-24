@@ -36,6 +36,11 @@
 .nav-menu li a{
     color: #f6f6f6;
     font-size: 1rem ;
+    font-weight: 600;
+}
+
+.nav-menu li a:hover{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 @media screen and (max-width: 946px) {
