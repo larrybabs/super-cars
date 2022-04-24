@@ -20,7 +20,7 @@ const Contact = () => {
                 </div>
                 <div>
                     <label>Message</label>
-                    <textarea cols="30" rows="15" placeholder="Enter your message"></textarea>
+                    <textarea cols="30" rows="10" placeholder="Enter your message"></textarea>
                 </div>
                 <div className="bottom">
                     <button className="btn btn-dark">
